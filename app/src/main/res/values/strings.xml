@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grabix</string>
+    <string name="share_label">Download with Grabix</string>
+    <string name="player_label">Grabix Player</string>
+</resources>

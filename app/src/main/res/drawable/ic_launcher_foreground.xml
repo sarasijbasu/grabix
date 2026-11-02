@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original Grabix mark: rounded play badge with a download arrow under it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,30h32a8,8 0,0 1,8 8v22a8,8 0,0 1,-8 8H38a8,8 0,0 1,-8 -8V38a8,8 0,0 1,8 -8z" />
+    <path
+        android:fillColor="#5B3DF5"
+        android:pathData="M48,39.5v19l15,-9.5z" />
+    <path
+        android:fillColor="#FFC83D"
+        android:pathData="M51,70h6v6h7l-10,10 -10,-10h7z" />
+</vector>
