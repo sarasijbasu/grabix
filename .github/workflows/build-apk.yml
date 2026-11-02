@@ -26,8 +26,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      # GitHub's ubuntu runners already ship with the Android SDK (ANDROID_HOME is set).
+      # We only need to accept the licenses so Gradle can download any missing packages.
+      - name: Accept Android SDK licenses
+        run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
 
       - name: Set up Gradle (with cache)
         uses: gradle/actions/setup-gradle@v4
